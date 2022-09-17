@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC", "QPC\QPC.csproj", "{55590F35-D868-4B2A-8C63-4CD45C92573F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC", "QPC\QPC.csproj", "{0B4C3561-3D5A-4FDF-9755-9B9866905B62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55590F35-D868-4B2A-8C63-4CD45C92573F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55590F35-D868-4B2A-8C63-4CD45C92573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55590F35-D868-4B2A-8C63-4CD45C92573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55590F35-D868-4B2A-8C63-4CD45C92573F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4C3561-3D5A-4FDF-9755-9B9866905B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4C3561-3D5A-4FDF-9755-9B9866905B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4C3561-3D5A-4FDF-9755-9B9866905B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4C3561-3D5A-4FDF-9755-9B9866905B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BE3BFEB3-AED4-4753-BF49-A7A208148676}
+		SolutionGuid = {3ECBC61C-B0E8-4BEC-AF6A-37857EDBDA15}
 	EndGlobalSection
 EndGlobal
