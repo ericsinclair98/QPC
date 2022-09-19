@@ -38,6 +38,26 @@ html, body {
     vertical-align:top;
     text-align:right;
 }
+.imageUnderHeaderWrapper{
+    width: 100%;
+    height: 90rem;
+    display:flex;
+    position: fixed;
+    border: solid 1rem pink;
+}
+.imageUnderHeader{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*error ui css*/
 
