@@ -51,9 +51,6 @@ html, body {
 
 
 @media only screen and (max-width: 1298px) {
-    .googleMapiframe{
-        display:hidden
-    }
     h2, h3, h4 {
         font-size: larger;
     }
@@ -75,14 +72,31 @@ html, body {
     }
 }
 
-@media only screen and (max-width: 394px) {
-    h2, h3, h4 {
-        font-size: small;
+@media only screen and (max-width: 640px) {
+    .InformationContainer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
 
+    .AddressBanner, .PhoneNumberBanner, .mapContainer {
+        vertical-align: central;
+        margin:auto;
+        text-align:center;
+        margin:0.5rem;
+        font-size:large;
+    }
+    .mapContainer{
+        object-position:center;
+        max-width:none;
+    }
+    ul,h3,h4{
+        margin: 0;
+        padding:0;
+    }
 }
 
-    /*IMAGE UNdER BANNER*/
+    /*IMAGE UNDER BANNER*/
     .imageUnderHeaderWrapper {
         width: 100%;
         height: contain;
@@ -97,16 +111,24 @@ html, body {
         filter: grayscale(60%);
         position: relative;
     }
-
-    .imageCover {
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        position: absolute;
-        opacity: 0.8;
+    .imageUnderHeaderPortrait{
+        display:none;
     }
 
 
+    @media only screen and (max-width: 640px){
+        .imageUnderHeader{
+            display:none;
+        }
+        .imageUnderHeaderPortrait {
+            display: flex;
+            width: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            filter: grayscale(60%);
+            position: relative;
+        }
+    }
 
 
 
